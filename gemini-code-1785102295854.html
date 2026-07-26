@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arborização Urbana de Patos – PB | Educação e Sustentabilidade</title>
+  <meta name="description" content="Plataforma de educação ambiental e mapeamento das espécies arbóreas da cidade de Patos - Paraíba. Saiba mais sobre as árvores da Caatinga e urbanas.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header & Menu de Navegação -->
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">🌿 Arboriza Patos</a>
+      <button id="mobile-menu-btn" aria-label="Abrir Menu" style="background:none; border:none; font-size:1.5rem;">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Início</a></li>
+        <li><a href="sobre.html">Sobre o Projeto</a></li>
+        <li><a href="especies.html">Espécies</a></li>
+        <li><a href="beneficios.html">Benefícios</a></li>
+        <li><a href="fauna.html">Fauna Associada</a></li>
+        <li><a href="educacao.html">Educação Ambiental</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="biblioteca.html">Biblioteca</a></li>
+        <li><a href="mapa.html">Mapa Interativo</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><button id="theme-toggle" class="theme-toggle" title="Alternar tema">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Banner Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Arborização Urbana de Patos – PB</h1>
+      <p>Conectando a população de Patos à riqueza botânica da Caatinga e à infraestrutura verde da nossa cidade através de tecnologia e educação ambiental.</p>
+      <div class="btn-group">
+        <a href="especies.html" class="btn btn-primary">🌳 Conheça as Espécies</a>
+        <a href="mapa.html" class="btn btn-secondary">🗺️ Mapa das Árvores</a>
+        <a href="educacao.html" class="btn btn-secondary">📚 Educação Ambiental</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Apresentação -->
+  <main class="container">
+    <section style="text-align: center; max-width: 900px; margin: 0 auto 3rem;">
+      <h2>A Importância do Verde na Capital do Sertão</h2>
+      <p style="margin-top: 1rem; color: var(--text-secondary);">
+        Em um clima semiárido marcante como o de Patos, a arborização urbana desempenha um papel fundamental no <strong>conforto térmico</strong>, na <strong>redução de ilhas de calor</strong>, no abrigo para a fauna silvestre e na melhoria direta da qualidade de vida de todos os moradores.
+      </p>
+    </section>
+
+    <!-- Destaque de Espécies Nativas e Urbanas -->
+    <section>
+      <h2>Espécies em Destaque</h2>
+      <div class="grid-cards">
+        
+        <!-- Card Craibeira -->
+        <article class="card">
+          <img src="img/craibeira.jpg" alt="Craibeira em flor" class="card-img" loading="lazy">
+          <div class="card-body">
+            <h3>Craibeira</h3>
+            <em>Tabebuia aurea</em>
+            <p>Símbolo da Caatinga, produz espetaculares floradas amarelas no período seco.</p>
+            <a href="especies/craibeira.html" class="btn btn-primary" style="margin-top: 1rem; width: 100%; justify-content: center;">Saiba mais</a>
+          </div>
+        </article>
+
+        <!-- Card Ipê-roxo -->
+        <article class="card">
+          <img src="img/ipe-roxo.jpg" alt="Ipê-roxo urbano" class="card-img" loading="lazy">
+          <div class="card-body">
+            <h3>Ipê-roxo</h3>
+            <em>Handroanthus impetiginosus</em>
+            <p>Conhecido por suas propriedades medicinais e floradas magenta exuberantes.</p>
+            <a href="especies/ipe-roxo.html" class="btn btn-primary" style="margin-top: 1rem; width: 100%; justify-content: center;">Saiba mais</a>
+          </div>
+        </article>
+
+        <!-- Card Juazeiro -->
+        <article class="card">
+          <img src="img/juazeiro.jpg" alt="Árvore Juazeiro" class="card-img" loading="lazy">
+          <div class="card-body">
+            <h3>Juazeiro</h3>
+            <em>Sarcomphalus joazeiro</em>
+            <p>Árvore mítica do sertão, mantém suas folhas verdes mesmo durante as secas severas.</p>
+            <a href="especies/juazeiro.html" class="btn btn-primary" style="margin-top: 1rem; width: 100%; justify-content: center;">Saiba mais</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="footer-content">
+      <div>
+        <h3>Arborização Urbana de Patos - PB</h3>
+        <p>Iniciativa de divulgação científica e preservação ambiental urbana.</p>
+      </div>
+      <div>
+        <h4>Parceiros Institucionais</h4>
+        <p>UFCG - Universidade Federal de Campina Grande<br>Prefeitura Municipal de Patos</p>
+      </div>
+    </div>
+    <div style="text-align: center; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1rem; font-size: 0.85rem;">
+      &copy; 2026 Arborização Urbana de Patos-PB. Todos os direitos reservados.
+    </div>
+  </footer>
+
+  <button id="back-to-top" title="Voltar ao topo">↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
