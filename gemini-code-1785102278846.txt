@@ -1,0 +1,29 @@
+arborizacao-patos/
+│
+├── index.html                  # Página Inicial (Home)
+├── sobre.html                  # Sobre o Projeto
+├── especies.html               # Galeria de Espécies com Filtros e Busca
+├── beneficios.html             # Benefícios da Arborização
+├── fauna.html                  # Fauna Associada
+├── educacao.html               # Guia de Plantio, Mitos e Verdades
+├── galeria.html                # Galeria de Fotos Geral
+├── biblioteca.html             # Cartilhas, Leis e Arquivos
+├── mapa.html                   # Mapa Interativo com Árvores Ubicadas
+├── contato.html                # Formulário de Contato
+│
+├── especies/                   # Páginas individuais (Leitura NFC/QR Code)
+│   ├── craibeira.html
+│   ├── ipe-roxo.html
+│   └── ... (demais 10 espécies)
+│
+├── css/
+│   └── style.css               # Estilos Globais, Componentes e Dark Mode
+│
+├── js/
+│   ├── main.js                 # Navegação, Menu Mobile, Dark Mode
+│   ├── especies-filter.js      # Filtro e Busca dinâmica de espécies
+│   └── mapa.js                 # Inicialização do Mapa Interativo
+│
+├── img/                        # Imagens do projeto e espécies
+├── audio/                      # Audiodescrições / Explicativos
+└── pdf/                        # Guias, Cartilhas e Leis
